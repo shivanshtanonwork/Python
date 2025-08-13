@@ -4,6 +4,6 @@ try:
 except Exception as e:
     print(e)
 
-# Gets executed when there is no error in the try block
+# Gets executed when there is no error in the try block 
 else:
     print("Hey I am Good")
