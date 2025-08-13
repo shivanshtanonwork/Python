@@ -6,3 +6,4 @@ def sum(a,b):
 
 c = reduce(sum, n)
 print(c)
+    
