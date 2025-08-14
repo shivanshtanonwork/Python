@@ -7,3 +7,9 @@ try:
 
 except FileNotFoundError:
     print("File not found !")
+
+
+with open("shivansh.txt", "r") as f:
+    cont = f.read()
+    print(cont)
+    
